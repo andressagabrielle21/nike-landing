@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <main>
-      <ul className="font-bold text-2xl text-coral-red flex justify-around items-center">
+      <ul className="font-bold text-2xl text-coral-red flex justify-around items-start">
         {footerLinks.map( (item) => (
           <li className="text-white-400" key={item.title}>{item.title}
             <ul>
