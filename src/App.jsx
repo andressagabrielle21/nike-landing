@@ -7,7 +7,7 @@ const App = () => {
 
       <Navbar />
 
-      <section className="xl:padding-1 wide:p-r p-b">
+      <section className="xl:p-l wide:p-r p-b">
         <Hero />
       </section>
 
